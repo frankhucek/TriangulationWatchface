@@ -178,9 +178,9 @@ static void hands_update_proc(Layer *layer, GContext *ctx)
   
   graphics_context_set_fill_color(ctx, GColorBlue);
   graphics_context_set_stroke_color(ctx, GColorBlue);
-  graphics_draw_line(ctx, hour, minute);
-	//graphics_draw_line(ctx, hour, center);
-	//graphics_draw_line(ctx, minute,center);
+  //graphics_draw_line(ctx, hour, minute);
+	graphics_draw_line(ctx, hour, center);
+	graphics_draw_line(ctx, minute,center);
 }
 
 void window_unload(Window *w)
