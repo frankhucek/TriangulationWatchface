@@ -1,0 +1,25 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "frankhucek@gmail.com",
+    "enableMultiJS": true,
+    "longName": "Triangulation Watchface",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Triangulation",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "72f5a6d7-7fc6-447e-97d9-83586876b020",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
